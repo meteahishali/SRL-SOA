@@ -1,7 +1,7 @@
 Hyperspectral Band Selection using Self-Representation Learning with Sparse 1D-Operational Autoencoder (SRL-SOA)
 =============================
 
-This repository includes the implentation of the hyperspectral image (HSI) band selection method in [SRL-SOA: Self-Representation Learning with Sparse 1D-Operational Autoencoder for Hyperspectral Image Band Selection](https://arxiv.org/abs/2106.14208).
+This repository includes the implentation of the hyperspectral image (HSI) band selection method in [SRL-SOA: Self-Representation Learning with Sparse 1D-Operational Autoencoder for Hyperspectral Image Band Selection](https://arxiv.org/abs/2202.09918).
 
 ![SRL-SOA method](images/srl_soa.png)
 
@@ -23,11 +23,11 @@ munkres == 1.1.4 # For EGCSR method (pip install munkres==1.1.4)
 If you use the provided method in this repository, please cite the following paper:
 
 ```
-@misc{ahishali2021representation,
-      title={Representation Based Regression for Object Distance Estimation}, 
-      author={Mete Ahishali and Mehmet Yamac and Serkan Kiranyaz and Moncef Gabbouj},
-      year={2021},
-      eprint={2106.14208},
+@misc{ahishali2022srlsoa,
+      title={SRL-SOA: Self-Representation Learning with Sparse 1D-Operational Autoencoder for Hyperspectral Image Band Selection}, 
+      author={Mete Ahishali and Serkan Kiranyaz and Iftikhar Ahmad and Moncef Gabbouj},
+      year={2022},
+      eprint={2202.09918},
       archivePrefix={arXiv},
       primaryClass={cs.CV}
 }
@@ -90,6 +90,6 @@ python main.py --method ISSC --dataset Indian_pines_corrected --bands 25
 ```
 
 ## References
-[1] S. Li and H. Qi, "Sparse representation based band selection for hyperspectral images," *in IEEE Int. Conf. Image Process.*, 2011, pp. 2693–2696.
-[2] Y. Cai, Z. Zhang, X. Liu, and Z. Cai, "Efficient graph convolutional self-representation for band selection of hyperspectral image," *IEEE J. Sel. Topics Appl. Earth Observ. Remote Sens.*, vol. 13, pp. 4869–4880, 2020.
+[1] S. Li and H. Qi, "Sparse representation based band selection for hyperspectral images," *in IEEE Int. Conf. Image Process.*, 2011, pp. 2693–2696. \
+[2] Y. Cai, Z. Zhang, X. Liu, and Z. Cai, "Efficient graph convolutional self-representation for band selection of hyperspectral image," *IEEE J. Sel. Topics Appl. Earth Observ. Remote Sens.*, vol. 13, pp. 4869–4880, 2020. \
 [3] W. Sun, L. Zhang, B. Du, W. Li, and Y. M. Lai, "Band selection using improved sparse subspace clustering for hyperspectral imagery classification," *IEEE J. Sel. Topics Appl. Earth Observ. Remote Sens.*, vol. 8, no. 6, pp. 2784–2797, 2015.
