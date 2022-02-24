@@ -12,8 +12,8 @@ np.random.seed(10)
 tf.random.set_seed(10)
 
 ap = argparse.ArgumentParser()
-ap.add_argument('--method', default='SLRol', help =
-                "SLRol, PCA, SpaBS, EGCSR_R, ISSC, None (for no band selection).")
+ap.add_argument('--method', default='SRL-SOA', help =
+                "SRL-SOA, PCA, SpaBS, EGCSR_R, ISSC, None (for no band selection).")
 ap.add_argument('--dataset', default='Indian_pines_corrected', help = "Indian_pines_corrected, SalinasA_corrected.")
 ap.add_argument('--q', default = 3, help = "Order of the OSEN.")
 ap.add_argument('--weights', default = True, help="Evaluate the model.")

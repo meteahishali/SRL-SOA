@@ -54,11 +54,11 @@ mv *mat data/
 
 The proposed SRL-SOA method can be run for the band selection as follows,
 ```
-python main.py --dataset Indian_pines_corrected --method SLRol --q 3 --bands 25
+python main.py --dataset Indian_pines_corrected --method SRL-SOA --q 3 --bands 25
 ```
 You can specify the dataset ```Indian_pines_corrected``` or ```SalinasA_corrected```, polynomial order (see [Operational Layers](https://arxiv.org/abs/2106.14208)) ```--q```, and the selected number of bands ```--bands```. The weights of the SRL-SOA are already provided under ```weights/``` folder to reproduce the reported results in the paper. If you desire to train them from scratch, ```--weights``` argument should be set to ```False```:
 ```
-python main.py --dataset Indian_pines_corrected --method SLRol --weights False --q 3 --bands 25
+python main.py --dataset Indian_pines_corrected --method SRL-SOA --weights False --q 3 --bands 25
 ```
 Note that once the network training is finished, the same network can be tested using different number of bands (```--bands```) with the same ```q``` value. Hence, you only re-train the network if you change the  ```q``` value.
 

@@ -111,7 +111,7 @@ def reduce_bands(param, classData, Data, i):
     if dataset != 'SalinasA_corrected': xx = classData['x_train']
     else: xx = np.concatenate([classData['x_train'], Data['scd']], axis = 0)
 
-    if modelType == 'SLRol':
+    if modelType == 'SRL-SOA':
         weightsDir = 'weights/' + dataset + '/'
         if not os.path.exists(weightsDir): os.makedirs(weightsDir)
         weightName = weightsDir + modelType + '_q' + str(q) + '_run' + str(i) + '.h5'
