@@ -17,6 +17,15 @@ scikit-learn == 0.23.2
 scikit-feature == 1.1.0 # For ISSC method (pip install skfeature-chappers==1.1.0)
 munkres == 1.1.4 # For EGCSR method (pip install munkres==1.1.4)
 ```
+Creating the environment using conda:
+```
+conda create -n srl-soa python=3.7
+conda activate srl-soa
+conda install tensorflow-gpu=2.4.1
+conda install scikit-learn=0.23.2
+pip install skfeature-chappers==1.1.0
+pip install munkres==1.1.4
+```
 
 ## Citation
 
