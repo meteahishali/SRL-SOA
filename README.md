@@ -32,14 +32,13 @@ pip install munkres==1.1.4
 If you use the provided method in this repository, please cite the following paper:
 
 ```
-@misc{ahishali2022srlsoa,
-      title={SRL-SOA: Self-Representation Learning with Sparse 1D-Operational Autoencoder for Hyperspectral Image Band Selection}, 
-      author={Mete Ahishali and Serkan Kiranyaz and Iftikhar Ahmad and Moncef Gabbouj},
-      year={2022},
-      eprint={2202.09918},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
-}
+@INPROCEEDINGS{ahishali2022srlsoa,
+  author={Ahishali, Mete and Kiranyaz, Serkan and Ahmad, Iftikhar and Gabbouj, Moncef},
+  booktitle={2022 IEEE International Conference on Image Processing (ICIP)}, 
+  title={SRL-SOA: Self-Representation Learning with Sparse 1D-Operational Autoencoder for Hyperspectral Image Band Selection}, 
+  year={2022},
+  pages={2296-2300},
+  doi={10.1109/ICIP46576.2022.9897863}}
 ```
 
 ## Downloading the HSI Datasets
