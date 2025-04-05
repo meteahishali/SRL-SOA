@@ -1,7 +1,7 @@
 Hyperspectral Band Selection using Self-Representation Learning with Sparse 1D-Operational Autoencoder (SRL-SOA)
 =============================
 
-This repository includes the implentation of the hyperspectral image (HSI) band selection method in [SRL-SOA: Self-Representation Learning with Sparse 1D-Operational Autoencoder for Hyperspectral Image Band Selection](https://arxiv.org/abs/2202.09918).
+This repository includes the implementation of the hyperspectral image (HSI) band selection method in [SRL-SOA: Self-Representation Learning with Sparse 1D-Operational Autoencoder for Hyperspectral Image Band Selection](https://arxiv.org/abs/2202.09918).
 
 ![SRL-SOA method](images/srl_soa.png)
 
